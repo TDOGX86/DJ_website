@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Font CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Our own CSS-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Darrion J</title>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+  </head>
+  <body cz-shortcut-listen="true">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+      <div class="navbar-brand" id="brand-container">
+        <a style="color: white; text-decoration: none" href="#">
+          <p>Darrion Jenkins</p>
+          <p id="brand-work">Game Developer and YouTuber</p>
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--About-->
+    <section id="about">
+      <p class="about-name">Hi,</p>
+      <p class="about-name">I am Darrion</p>
+      <p id="about-tagline">
+        I <span id="about-heart">♥</span> making video games &amp; YouTube
+        videos
+      </p>
+
+      <div class="learn_call_to_action">
+        <a
+          href="#contact"
+          class="btn"
+          style="
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+            border-color: #b1365b;
+            background-color: #b1365b;
+          "
+        >
+          Take a look at some of my work
+        </a>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects">
+      <h2 class="section-header">Projects I am proud of</h2>
+      <div class="section-carousel">
+        <div id="projects-container">
+          <div class="card" style="width: 18rem">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/Nt8ErlNc2XI"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title project-title">It's Gamer Time Trailer</h5>
+              <p class="card-text project-description">
+                The trailer for my first game made on Unity
+              </p>
+              <div class="project-call-to-action">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/watch?v=Nt8ErlNc2XI"
+                  class="btn btn-primary"
+                  >Check it out</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://img.itch.zone/aW1nLzYxMTYyNzUucG5n/347x500/3cE1JY.png"
+              class="card-img-top"
+              alt="It's Gamer Time game screenshot"
+            />
+            <div class="card-body">
+              <h5 class="card-title project-title">It's Gamer Time Beta</h5>
+              <p class="card-text project-description">
+                If you liked the trailer feel free to give it a try
+              </p>
+              <div class="project-call-to-action">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://hb-gamer-dev.itch.io/its-gamer-time"
+                  class="btn btn-primary"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+      <h2 class="section-header">Check out my YouTube</h2>
+      <div id="contact-container">
+        <a href="https://www.youtube.com/channel/UCsgoCUC3rH9rJ4XBBwH1VLw">
+          <img
+            src="https://yt3.ggpht.com/ytc/AAUvwnhh4ZQVgF_ZeUYYomRlFikX43l1LCn_0nMTlcDy=s88-c-k-c0x00ffffff-no-rj"
+            width="200"
+            height="200"
+            alt=""
+        /></a>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
